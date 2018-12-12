@@ -8,6 +8,8 @@ exports.getFormulaList = function* () {
     let body = yield biz_formula.getFormulaList(model);
     this.body = body;
 }
+
+
 /**
  * 查询配方列表页面
  */
