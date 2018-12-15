@@ -17,6 +17,9 @@ exports.formula = function* () {
     yield this.render('/formula/formula', {req:this});
 }
 
+
+
+
 /**
  * 通过配方Id查询配方页面
  */
@@ -40,6 +43,7 @@ exports.showFormulaById = function* () {
     }
     yield this.render('/formula/showFormulaById', {req: this, model: model,conList:conList});
 }
+
 /**
  * 通过配方Id移除配方
  */
