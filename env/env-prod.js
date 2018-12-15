@@ -6,21 +6,9 @@
     com.env = {
         redis:{
             port:6379,
-            host:"192.168.239.132"
+            host:"192.168.239.134"
         },
-        mysql:{
-            host:"",
-            port:"",
-            user:"",
-            password:"",
-            database:""
-        },
-        wx: {
-            token: '',
-            appID: '',
-            AppSecret: ''
-        },
-          core_path: "http://192.168.239.132:8080/sys_api-1.0.0.0",
+        core_path: "http://192.168.2.2:8080/sys_api-1.0.0.0",
         //core_path: "http://192.168.239.132:8080/sys_api-1.0.0.0",localhost
         cookiehost:'',
         cdn_url: "",
