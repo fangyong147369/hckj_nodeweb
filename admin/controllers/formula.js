@@ -9,15 +9,12 @@ exports.getFormulaList = function* () {
     this.body = body;
 }
 
-
 /**
  * 查询配方列表页面
  */
 exports.formula = function* () {
     yield this.render('/formula/formula', {req:this});
 }
-
-
 
 
 /**
